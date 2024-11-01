@@ -6,6 +6,107 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Keterampilan Mengoding</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #1a1a2e, #0f0f1a);
+            border-bottom: 3px solid #e94560;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
+        }
+
+        h1 {
+            font-size: 4em;
+            margin: 0;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        h2 {
+            margin-top: 40px;
+            font-size: 3em;
+            color: #00ffff;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        h3 {
+            font-size: 2em;
+            color: #ffffff;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin: 40px 0;
+            background: rgba(255, 99, 71, 0.8);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 25px rgba(0, 0, 0, 0.6);
+        }
+
+        .field {
+            margin-bottom: 10px;
+        }
+
+        .field label {
+            display: block;
+            font-size: 12px;
+            color: #777;
+        }
+
+        .field input, .field textarea {
+            display: block;
+            width: 100%;
+            line-height: 1.5;
+            font-size: 14px;
+            padding: 10px;
+            margin-top: 5px;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+        }
+
+        .field textarea {
+            height: 100px;
+        }
+
+        input[type="submit"] {
+            display: block;
+            padding: 6px 30px;
+            font-size: 14px;
+            background-color: #4460AA;
+            color: #fff;
+            border: none;
+            margin-top: 15px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #5a8cd1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #1a1a2e, #0f0f1a);
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -16,41 +117,54 @@
         <section>
             <h2>Kenapa Belajar Mengoding?</h2>
             <p>Mengoding adalah keterampilan yang sangat dibutuhkan di era digital ini. Dengan menguasai bahasa pemrograman, Anda dapat menciptakan aplikasi, website, dan solusi teknologi yang berdampak.</p>
-            <p>Tidak hanya itu, mengoding juga membuka banyak peluang karir yang menarik dan berpotensi menghasilkan penghasilan yang tinggi.</p>
+            <p>Tidak hanya itu, mengoding juga membuka banyak peluang karir yang menarik dan berpotensi menghasilkan penghasilan yang tinggi. Anda dapat menjadi:</p>
+            <ul>
+                <li>Web Developer</li>
+                <li>Mobile App Developer</li>
+                <li>Data Scientist</li>
+                <li>Game Developer</li>
+                <li>Software Engineer</li>
+            </ul>
         </section>
         <section>
             <h2>Bahasa Pemrograman Populer</h2>
+            <p>Berikut adalah beberapa bahasa pemrograman yang banyak digunakan di industri:</p>
             <ul>
-                <li><strong>Python:</strong> Mudah dipelajari, ideal untuk pemula.</li>
-                <li><strong>JavaScript:</strong> Bahasa inti untuk pengembangan web yang dinamis.</li>
-                <li><strong>Java:</strong> Banyak digunakan dalam aplikasi perusahaan dan pengembangan Android.</li>
-                <li><strong>C++:</strong> Digunakan dalam perangkat lunak yang memerlukan performa tinggi.</li>
-                <li><strong>Ruby:</strong> Dikenal dengan sintaks yang bersih.</li>
+                <li><strong>Python:</strong> Mudah dipelajari dan banyak digunakan dalam analisis data, machine learning, dan pengembangan web.</li>
+                <li><strong>JavaScript:</strong> Bahasa inti untuk pengembangan web yang dinamis, digunakan untuk membuat interaksi pengguna yang menarik.</li>
+                <li><strong>Java:</strong> Bahasa yang kuat untuk pengembangan aplikasi perusahaan dan pengembangan Android.</li>
+                <li><strong>C++:</strong> Digunakan dalam perangkat lunak yang memerlukan performa tinggi seperti game dan sistem operasi.</li>
+                <li><strong>Ruby:</strong> Dikenal dengan sintaks yang bersih dan digunakan dalam pengembangan web dengan framework Ruby on Rails.</li>
             </ul>
         </section>
         <section>
             <h2>Proyek yang Dapat Anda Coba</h2>
+            <p>Berikut beberapa proyek yang bisa Anda coba untuk meningkatkan keterampilan pemrograman Anda:</p>
             <div class="project-card">
                 <h3>1. Aplikasi To-Do List</h3>
-                <p>Bangun aplikasi sederhana untuk mengelola tugas harian Anda.</p>
+                <p>Bangun aplikasi sederhana untuk mengelola tugas harian Anda. Ini akan membantu Anda belajar tentang penyimpanan data dan antarmuka pengguna.</p>
             </div>
             <div class="project-card">
                 <h3>2. Website Portofolio</h3>
-                <p>Rancang website pribadi untuk menunjukkan keterampilan dan proyek Anda.</p>
+                <p>Rancang website pribadi untuk menunjukkan keterampilan dan proyek Anda. Ini adalah cara yang bagus untuk membuat kesan pertama kepada calon klien atau perekrut.</p>
             </div>
             <div class="project-card">
                 <h3>3. Game Sederhana</h3>
-                <p>Cobalah membuat game sederhana menggunakan JavaScript.</p>
+                <p>Cobalah membuat game sederhana menggunakan JavaScript. Ini dapat meningkatkan keterampilan logika dan pemecahan masalah Anda.</p>
             </div>
         </section>
         <section id="reviews">
             <h2>Ulasan Pengguna</h2>
-            <form id="reviewForm">
-                <label for="name">Nama:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="review">Ulasan:</label>
-                <textarea id="review" name="review" rows="4" required></textarea>
-                <button type="submit">Kirim Ulasan</button>
+            <form id="form">
+                <div class="field">
+                    <label for="from_name">Nama:</label>
+                    <input type="text" name="from_name" id="from_name" required>
+                </div>
+                <div class="field">
+                    <label for="message">Ulasan:</label>
+                    <textarea name="message" id="message" required></textarea>
+                </div>
+                <input type="submit" id="button" value="Kirim Ulasan">
             </form>
         </section>
     </main>
@@ -58,6 +172,34 @@
         <p>&copy; 2024 Keterampilan Mengoding. Semua hak dilindungi.</p>
     </footer>
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script src="script.js"></script>
+    <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("krWSoomb7Kys56xR0"); // Kunci publik Anda
+        })();
+        
+        const btn = document.getElementById('button');
+
+        document.getElementById('form')
+            .addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                btn.value = 'Sending...';
+
+                const serviceID = 'default_service';
+                const templateID = 'Fraell';
+
+                emailjs.sendForm(serviceID, templateID, this)
+                    .then(() => {
+                        btn.value = 'Kirim Ulasan';
+                        alert('Ulasan Anda telah dikirim!');
+                        document.getElementById('form').reset(); // Reset form
+                    }, (err) => {
+                        btn.value = 'Kirim Ulasan';
+                        alert('Gagal mengirim ulasan: ' + JSON.stringify(err));
+                    });
+            });
+    </script>
 </body>
 </html>
